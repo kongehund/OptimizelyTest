@@ -1,9 +1,6 @@
-﻿using EPiServer.Core;
-using EPiServer.Web.Mvc;
-using EPiServer.Web.Routing;
+﻿using EPiServer.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using OptimizelyCMSTest.Models.Pages;
-using System;
 
 namespace OptimizelyCMSTest.Controllers
 {
@@ -14,9 +11,5 @@ namespace OptimizelyCMSTest.Controllers
         {
             return View(currentPage);
         }
-        //public IActionResult Index(StandardPage currentPage)
-        //{
-        //    return Content($"Page found! Title: {currentPage.Title}");
-        //}
     }
 }
